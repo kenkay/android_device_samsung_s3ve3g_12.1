@@ -23,3 +23,4 @@ TODO:
 =======
 
 	- Fix NFC
+# android_device_samsung_s3ve3g_12.1
