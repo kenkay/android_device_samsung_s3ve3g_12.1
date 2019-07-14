@@ -75,12 +75,13 @@ vendor/lib/liboemcamera.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libsensor1.so
+# lib/libxml2.so
 
 # Camera chromatix
-lib/B08QT_libTsAe.so
-lib/B08QT_libTsAf.so
-lib/B08QT_libTs_J_Accm.so
-lib/B08QT_libTs_J_Awb.so
+# lib/B08QT_libTsAe.so
+# lib/B08QT_libTsAf.so
+# lib/B08QT_libTs_J_Accm.so
+# lib/B08QT_libTs_J_Awb.so
 lib/libAfSingle.so
 lib/libchromatix_s5k6a3yx_smart_stay.so
 lib/libchromatix_s5k6a3yx_vt.so
@@ -111,6 +112,25 @@ vendor/lib/E08QL_libchromatix_s5k4h5yb_snapshot.so
 vendor/lib/E08QL_libchromatix_s5k4h5yb_video_hd.so
 vendor/lib/E08QL_libchromatix_s5k4h5yb_zsl.so
 vendor/lib/E08QL_libchromatix_s5k4h5yb_zslshot.so
+#mine
+vendor/lib/C08QT_libchromatix_imx175_common.so
+vendor/lib/C08QT_libchromatix_imx175_common_res0.so
+vendor/lib/C08QT_libchromatix_imx175_common_res1.so
+vendor/lib/C08QT_libchromatix_imx175_default_video.so
+vendor/lib/C08QT_libchromatix_imx175_liveshot.so
+vendor/lib/C08QT_libchromatix_imx175_preview.so
+vendor/lib/C08QT_libchromatix_imx175_snapshot.so
+vendor/lib/C08QT_libchromatix_imx175_video_hd.so
+vendor/lib/C08QT_libchromatix_imx175_zsl.so
+vendor/lib/C08QT_libchromatix_imx175_zslshot.so
+vendor/lib/libchromatix_imx219_common.so
+vendor/lib/libchromatix_s5k6a3yx_video_hd.so
+vendor/lib/libchromatix_s5k8b1yx_pip.so
+vendor/lib/libc2d30.so
+vendor/lib/libc2d30-a4xx.so
+vendor/lib/libc2d2_z180.so
+
+
 vendor/lib/libchromatix_imx175_common.so
 vendor/lib/libchromatix_imx175_preview.so
 vendor/lib/libchromatix_s5k6a3yx_common.so
@@ -119,6 +139,24 @@ vendor/lib/libchromatix_s5k6a3yx_preview.so
 vendor/lib/libchromatix_s5k6a3yx_snapshot.so
 vendor/lib/libchromatix_s5k6a3yx_video_hd.so
 vendor/lib/libchromatix_s5k6a3yx_zsl.so
+#mine
+vendor/lib/libmmcamera_s5k8b1yx.so
+vendor/lib/libchromatix_s5k8b1yx_common.so
+vendor/lib/libchromatix_s5k8b1yx_preview.so
+vendor/lib/libchromatix_s5k8b1yx_snapshot.so
+vendor/lib/libchromatix_s5k8b1yx_video.so
+vendor/lib/libchromatix_s5k8b1yx_vt.so
+vendor/lib/libchromatix_s5k8b1yx_vt_hd.so
+vendor/lib/libchromatix_s5k8b1yx_smart_stay.so
+vendor/lib/libchromatix_s5k8b1yx_zslshot.so
+vendor/lib/libmmcamera_sr030pc50.so
+vendor/lib/libmmcamera_sr130pc20.so
+vendor/lib/libmmcamera_sr200pc20.so
+vendor/lib/libmmcamera_sr352.so
+lib/E08QL_libTsAe.so
+lib/E08QL_libTsAf.so
+lib/E08QL_libTs_J_Accm.so
+lib/E08QL_libTs_J_Awb.so
 
 # Camera firmware
 etc/B08QT_imx175_module_info.xml
@@ -132,8 +170,8 @@ cameradata/datapattern_front_420sp.yuv
 # DRM
 bin/qseecomd
 framework/com.google.widevine.software.drm.jar
-vendor/libdrmdecrypt.so
-vendor/lib/drm/libdrmwvmplugin.so
+lib/libdrmdecrypt.so
+lib/drm/libdrmwvmplugin.so
 vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib/libdrmdiag.so
 vendor/lib/libdrmfs.so
@@ -142,11 +180,11 @@ vendor/lib/libQSEEComAPI.so
 vendor/lib/librpmb.so
 vendor/lib/libssd.so
 vendor/lib/libwvdrm_L3.so
-vendor/lib/libwvm.so
+lib/libwvm.so
 vendor/lib/libWVStreamControlAPI_L3.so
 
 # GPS
--app/com.qualcomm.location/com.qualcomm.location.apk
+-app/com.qualcomm.location.apk
 etc/permissions/com.qualcomm.location.xml
 lib/hw/flp.default.so
 lib/libloc_api_v02.so
@@ -154,6 +192,9 @@ vendor/lib/libgeofence.so
 vendor/lib/libizat_core.so
 vendor/lib/liblbs_core.so
 vendor/lib/liblocationservice.so
+#mine
+#lib/libloc_core.so
+#lib/libgps.utils.so
 
 # Graphics
 vendor/lib/egl/eglsubAndroid.so
@@ -162,18 +203,35 @@ vendor/lib/egl/libGLESv1_CM_adreno.so
 vendor/lib/egl/libGLESv2_adreno.so
 vendor/lib/egl/libq3dtools_adreno.so
 vendor/lib/libadreno_utils.so
-vendor/lib/libbccQTI.so
+# vendor/lib/libbccQTI.so
 vendor/lib/libC2D2.so
 vendor/lib/libc2d30-a3xx.so
 vendor/lib/libCB.so
 vendor/lib/libgsl.so
 vendor/lib/libllvm-qcom.so
 vendor/lib/libOpenCL.so
-vendor/lib/libRSDriver_adreno.so
-vendor/lib/librs_adreno.so
-vendor/lib/librs_adreno_sha1.so
+# vendor/lib/libRSDriver_adreno.so
+# vendor/lib/librs_adreno.so
+# vendor/lib/librs_adreno_sha1.so
 vendor/lib/libsc-a3xx.so
 vendor/lib/libscale.so
+#mio 
+vendor/lib/libOpenVG.so
+vendor/lib/libsc-a2xx.so
+vendor/lib/libmmcamera_imx135.so
+vendor/lib/libmmcamera_imx219.so
+vendor/lib/libchromatix_imx219_common_res0.so
+vendor/lib/libchromatix_imx219_preview.so
+vendor/lib/libchromatix_imx219_snapshot.so
+vendor/lib/libchromatix_imx219_default_video.so
+vendor/lib/libchromatix_imx219_liveshot.so
+vendor/lib/libchromatix_imx219_liveshot.so
+vendor/lib/libchromatix_imx219_zslshot.so
+vendor/lib/libmmcamera_s5k3h5xa.so
+vendor/lib/libmmcamera_s5k4ecgx.so
+vendor/lib/libmmcamera_s5k4h5ya.so
+vendor/lib/libmmcamera_s5k4h5yb.so
+vendor/lib/libmmcamera_s5k6a3yx.so
 
 # Graphics firmware
 etc/firmware/a300_pfp.fw
@@ -250,7 +308,7 @@ vendor/lib/libthermalclient.so
 vendor/lib/libthermalioctl.so
 
 # Time services
--app/TimeService/TimeService.apk
+-app/TimeService.apk
 bin/time_daemon
 vendor/lib/libtime_genoff.so
 vendor/lib/libTimeService.so

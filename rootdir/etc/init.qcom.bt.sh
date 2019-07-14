@@ -1,4 +1,4 @@
-#!/system/bin/sh
+#!/system/bin/bash
 
 LOG_TAG="qcom-bluetooth"
 LOG_NAME="${0}:"
